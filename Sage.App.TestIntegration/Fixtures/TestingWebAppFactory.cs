@@ -6,6 +6,7 @@ using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using Sage.Repository.Context;
+using Sage.API;
 
 namespace Sage.App.TestIntegration.Fixtures
 {
@@ -26,8 +27,7 @@ namespace Sage.App.TestIntegration.Fixtures
                     services.Remove(descriptor);
                 }
 
-                ////var connectionString = "server=remotemysql.com;userid=2hNtbAnF4H;password=ete1uXVHp6;database=2hNtbAnF4H";
-                //var connectionString = "server=localhost;userid=root;password=mysql@2019;database=SageAngularDB";
+                //var connectionString = "server=remotemysql.com;userid=iR0NzkGBth;password=CnwDkICNhl;database=iR0NzkGBth";
 
                 //// Configurar context banco de dados
                 //services.AddDbContext<SageContext>(option =>

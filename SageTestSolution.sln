@@ -9,15 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sage.Repository", "Sage.Rep
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sage.Services", "Sage.Services\Sage.Services.csproj", "{319E8617-A1DF-4686-A91C-B1E876377E44}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sage.App", "Sage.App\Sage.App.csproj", "{06330E92-4A2A-4557-AB98-788F441011A0}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sage.App.TestIntegration", "Sage.App.TestIntegration\Sage.App.TestIntegration.csproj", "{328BE2E2-4862-449F-9A3A-52CB9BE71F61}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sage.Services.Test", "Sage.Services.Test\Sage.Services.Test.csproj", "{9EA6DE37-7341-4855-AD55-6C2149F0D176}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sage.Repository.Test", "Sage.Repository.Test\Sage.Repository.Test.csproj", "{71015D41-79F2-4020-878C-4784CB302B91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sage.API", "Sage.API\Sage.API.csproj", "{91EFBE13-5CFE-4235-96FF-19637F3A3FEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sage.API", "Sage.API\Sage.API.csproj", "{91EFBE13-5CFE-4235-96FF-19637F3A3FEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +35,6 @@ Global
 		{319E8617-A1DF-4686-A91C-B1E876377E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{319E8617-A1DF-4686-A91C-B1E876377E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{319E8617-A1DF-4686-A91C-B1E876377E44}.Release|Any CPU.Build.0 = Release|Any CPU
-		{06330E92-4A2A-4557-AB98-788F441011A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{06330E92-4A2A-4557-AB98-788F441011A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{06330E92-4A2A-4557-AB98-788F441011A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{06330E92-4A2A-4557-AB98-788F441011A0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{328BE2E2-4862-449F-9A3A-52CB9BE71F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{328BE2E2-4862-449F-9A3A-52CB9BE71F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{328BE2E2-4862-449F-9A3A-52CB9BE71F61}.Release|Any CPU.ActiveCfg = Release|Any CPU

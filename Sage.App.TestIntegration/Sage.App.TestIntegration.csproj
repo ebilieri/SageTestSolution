@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Sage.App\Sage.App.csproj" />
+    <ProjectReference Include="..\Sage.API\Sage.API.csproj" />
   </ItemGroup>
 
 </Project>

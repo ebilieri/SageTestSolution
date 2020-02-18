@@ -32,6 +32,26 @@ namespace Sage.API.Controllers
             }
         }
 
+        [HttpGet("{id}")]
+        public ActionResult Get(int id)
+        {
+            try
+            {
+                var pessoa = _pessoaService.GetById(id);
+
+                if (pessoa == null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(pessoa);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.ToString());
+            }
+        }
+
         [HttpPost]
         public ActionResult Add(Pessoa pessoa)
         {
@@ -39,6 +59,25 @@ namespace Sage.API.Controllers
             {
                 _pessoaService.Add(pessoa);
                 return Created("api/Pessoas", pessoa);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.ToString());
+            }
+        }
+
+        [HttpPut("{id}")]
+        public ActionResult Update(int id, Pessoa pessoa)
+        {
+            try
+            {
+                if (id != pessoa.Id)
+                {
+                    return BadRequest();
+                }
+
+                _pessoaService.Update(pessoa);
+                return NoContent();
             }
             catch (Exception ex)
             {
