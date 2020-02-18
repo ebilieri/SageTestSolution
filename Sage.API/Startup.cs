@@ -39,7 +39,7 @@ namespace Sage.API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "Sage FaleMais",
+                    Title = "Sage Cadastro",
                     Version = "v1",
                     Description = "A simple example ASP.NET Core Web API",
                     TermsOfService = new Uri("https://github.com/ebilieri"),
@@ -100,7 +100,7 @@ namespace Sage.API
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Sage FaleMais v1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Sage Cadastro v1");
             });
 
             app.UseHttpsRedirection();
